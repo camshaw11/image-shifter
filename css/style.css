@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #ffffff;
-  margin: 0;
+  margin: 10px;
 }
 h1,
 h2,
@@ -20,12 +20,12 @@ table {
 .gridster .gs-w {
   background: white;
   cursor: pointer;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+/*  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);*/
 }
 .gridster .player {
-  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+/*  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);*/
   background: white;
 }
 .gridster .gs-w.try {
@@ -59,5 +59,5 @@ li {
   height: 100%;
 }
 .controls {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }

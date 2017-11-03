@@ -2,7 +2,7 @@
 var gridster = null;
 $(document).ready(function () {
     gridster = $(".gridster ul").gridster({
-        widget_base_dimensions: ['auto', 145],
+        widget_base_dimensions: ['auto', 150],
         autogenerate_stylesheet: true,
         min_cols: 1,
         max_cols: 8,
