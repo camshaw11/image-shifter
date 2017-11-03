@@ -2,11 +2,11 @@
 var gridster = null;
 $(document).ready(function () {
     gridster = $(".gridster ul").gridster({
-        widget_base_dimensions: ['auto', 140],
+        widget_base_dimensions: ['auto', 145],
         autogenerate_stylesheet: true,
         min_cols: 1,
-        max_cols: 6,
-        widget_margins: [5, 5],
+        max_cols: 8,
+        widget_margins: [0, 0],
         resize: {
             enabled: true
         }
